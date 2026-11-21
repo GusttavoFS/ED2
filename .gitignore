@@ -1,0 +1,19 @@
+# Executáveis e binários compilados
+*.exe
+*.out
+*.app
+
+# Arquivos objeto e bibliotecas
+*.o
+*.obj
+*.a
+*.so
+
+# Arquivos gerados pelo Graphviz
+*.dot
+*.png
+
+# Configurações locais de IDE e logs
+.vscode/
+*.log
+vgcore.*
