@@ -1,8 +1,10 @@
 #include <stdio.h>
+#include <locale.h>
 #include "bst.h"
 
 int main(void) {
     BST *T = bst_create();
+    setlocale(LC_ALL, "Portuguese");
 
     /* Exemplo clássico de chaves (Cormen Fig. 12.2) */
     int keys[] = {15, 6, 18, 3, 7, 17, 20, 2, 4, 13, 9};
